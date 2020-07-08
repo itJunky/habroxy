@@ -5,10 +5,10 @@ Just test work for employment
 Proxy for getting habra pages by URI.
 
 ### Requirements
-Python 3.5+
-Flask
-Requests
-bs4(BeautifulSoup)
+- Python 3.5+
+- Flask
+- Requests
+- bs4(BeautifulSoup)
 
 ### Installation
 ```
