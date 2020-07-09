@@ -19,7 +19,7 @@ class Proxify:
         new_content = soup.new_tag('div', class_='post__text post__text-html post__text_v1')
         # print('DEBUG: parse content: %s' % content)
         new_content = self.replace(content, new_content)
-        # content.replace_width(new_content)
+        content.replace_with(new_content)
         return soup.prettify("utf-8")
 
     def replace(self, tag, new_tag):
